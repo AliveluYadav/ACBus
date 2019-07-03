@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4180FC61FFB7DB0008644C4 /* MagazinePouch.m in Sources */ = {isa = PBXBuildFile; fileRef = D4180FC51FFB7DB0008644C4 /* MagazinePouch.m */; };
+		D4180FC91FFB8362008644C4 /* WaterBottle.m in Sources */ = {isa = PBXBuildFile; fileRef = D4180FC81FFB8362008644C4 /* WaterBottle.m */; };
+		D4180FCF1FFB86C6008644C4 /* Mirrors.m in Sources */ = {isa = PBXBuildFile; fileRef = D4180FCE1FFB86C6008644C4 /* Mirrors.m */; };
+		D4180FD21FFB87EE008644C4 /* Tube.m in Sources */ = {isa = PBXBuildFile; fileRef = D4180FD11FFB87EE008644C4 /* Tube.m */; };
+		D4180FD51FFB892F008644C4 /* Brake.m in Sources */ = {isa = PBXBuildFile; fileRef = D4180FD41FFB892F008644C4 /* Brake.m */; };
+		D4180FD81FFB8D7F008644C4 /* Gears.m in Sources */ = {isa = PBXBuildFile; fileRef = D4180FD71FFB8D7F008644C4 /* Gears.m */; };
+		D4180FDB1FFB95E3008644C4 /* FrontLight.m in Sources */ = {isa = PBXBuildFile; fileRef = D4180FDA1FFB95E3008644C4 /* FrontLight.m */; };
+		D4180FDE1FFB96E8008644C4 /* BackLights.m in Sources */ = {isa = PBXBuildFile; fileRef = D4180FDD1FFB96E8008644C4 /* BackLights.m */; };
+		D4180FE11FFB9710008644C4 /* LEDLights.m in Sources */ = {isa = PBXBuildFile; fileRef = D4180FE01FFB9710008644C4 /* LEDLights.m */; };
+		D4180FE71FFB9BF4008644C4 /* AxleBearing.m in Sources */ = {isa = PBXBuildFile; fileRef = D4180FE61FFB9BF4008644C4 /* AxleBearing.m */; };
+		D4180FEA1FFB9EB9008644C4 /* Outlets.m in Sources */ = {isa = PBXBuildFile; fileRef = D4180FE91FFB9EB9008644C4 /* Outlets.m */; };
+		D42C50BD1FFBA86F0062032F /* Glass.m in Sources */ = {isa = PBXBuildFile; fileRef = D42C50BC1FFBA86F0062032F /* Glass.m */; };
+		D42C50C31FFBA9E30062032F /* Wiper.m in Sources */ = {isa = PBXBuildFile; fileRef = D42C50C21FFBA9E30062032F /* Wiper.m */; };
+		D4825F2D1FFC8AAA000C8320 /* FireExtinguisher.m in Sources */ = {isa = PBXBuildFile; fileRef = D4825F2C1FFC8AAA000C8320 /* FireExtinguisher.m */; };
+		D4825F301FFC8B85000C8320 /* FuelTank.m in Sources */ = {isa = PBXBuildFile; fileRef = D4825F2F1FFC8B85000C8320 /* FuelTank.m */; };
+		D4825F331FFC8D92000C8320 /* FirstAidBox.m in Sources */ = {isa = PBXBuildFile; fileRef = D4825F321FFC8D92000C8320 /* FirstAidBox.m */; };
+		D49C3CA91FFB799E000F1FAB /* FootRest.m in Sources */ = {isa = PBXBuildFile; fileRef = D49C3CA81FFB799E000F1FAB /* FootRest.m */; };
+		D49C3CAC1FFB79B2000F1FAB /* HandRest.m in Sources */ = {isa = PBXBuildFile; fileRef = D49C3CAB1FFB79B2000F1FAB /* HandRest.m */; };
+		D49C3CAF1FFB79C9000F1FAB /* PushBack.m in Sources */ = {isa = PBXBuildFile; fileRef = D49C3CAE1FFB79C9000F1FAB /* PushBack.m */; };
+		D4AE6E781FFB6425001ECE8A /* Engine.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AE6E771FFB6425001ECE8A /* Engine.m */; };
+		D4AE6E7B1FFB6505001ECE8A /* ACBus.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AE6E7A1FFB6505001ECE8A /* ACBus.m */; };
+		D4B3DEFC1FF7AC0900D2EF55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B3DEFB1FF7AC0900D2EF55 /* main.m */; };
+		D4B3DF0A1FF7AD6400D2EF55 /* Seats.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B3DF091FF7AD6400D2EF55 /* Seats.m */; };
+		D4B3DF0D1FF7ADA000D2EF55 /* Tyres.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B3DF0C1FF7ADA000D2EF55 /* Tyres.m */; };
+		D4B3DF131FF7ADDB00D2EF55 /* AC.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B3DF121FF7ADDB00D2EF55 /* AC.m */; };
+		D4B3DF191FF7AE3200D2EF55 /* Door.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B3DF181FF7AE3200D2EF55 /* Door.m */; };
+		D4B3DF1C1FF7AE5C00D2EF55 /* Television.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B3DF1B1FF7AE5C00D2EF55 /* Television.m */; };
+		D4B3DF1F1FF7AE8200D2EF55 /* Steering.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B3DF1E1FF7AE8200D2EF55 /* Steering.m */; };
+		D4B3DF221FF7AE9A00D2EF55 /* Horn.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B3DF211FF7AE9A00D2EF55 /* Horn.m */; };
+		D4B3DF251FF7AF0000D2EF55 /* Blankets.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B3DF241FF7AF0000D2EF55 /* Blankets.m */; };
+		D4B3DF281FF7AF7600D2EF55 /* Lights.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B3DF271FF7AF7600D2EF55 /* Lights.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D4B3DEF61FF7AC0900D2EF55 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D4180FC41FFB7DB0008644C4 /* MagazinePouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagazinePouch.h; sourceTree = "<group>"; };
+		D4180FC51FFB7DB0008644C4 /* MagazinePouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagazinePouch.m; sourceTree = "<group>"; };
+		D4180FC71FFB8362008644C4 /* WaterBottle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterBottle.h; sourceTree = "<group>"; };
+		D4180FC81FFB8362008644C4 /* WaterBottle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterBottle.m; sourceTree = "<group>"; };
+		D4180FCD1FFB86C6008644C4 /* Mirrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mirrors.h; sourceTree = "<group>"; };
+		D4180FCE1FFB86C6008644C4 /* Mirrors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mirrors.m; sourceTree = "<group>"; };
+		D4180FD01FFB87EE008644C4 /* Tube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tube.h; sourceTree = "<group>"; };
+		D4180FD11FFB87EE008644C4 /* Tube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tube.m; sourceTree = "<group>"; };
+		D4180FD31FFB892F008644C4 /* Brake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Brake.h; sourceTree = "<group>"; };
+		D4180FD41FFB892F008644C4 /* Brake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Brake.m; sourceTree = "<group>"; };
+		D4180FD61FFB8D7F008644C4 /* Gears.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gears.h; sourceTree = "<group>"; };
+		D4180FD71FFB8D7F008644C4 /* Gears.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gears.m; sourceTree = "<group>"; };
+		D4180FD91FFB95E3008644C4 /* FrontLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrontLight.h; sourceTree = "<group>"; };
+		D4180FDA1FFB95E3008644C4 /* FrontLight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrontLight.m; sourceTree = "<group>"; };
+		D4180FDC1FFB96E8008644C4 /* BackLights.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackLights.h; sourceTree = "<group>"; };
+		D4180FDD1FFB96E8008644C4 /* BackLights.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackLights.m; sourceTree = "<group>"; };
+		D4180FDF1FFB9710008644C4 /* LEDLights.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEDLights.h; sourceTree = "<group>"; };
+		D4180FE01FFB9710008644C4 /* LEDLights.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEDLights.m; sourceTree = "<group>"; };
+		D4180FE51FFB9BF4008644C4 /* AxleBearing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxleBearing.h; sourceTree = "<group>"; };
+		D4180FE61FFB9BF4008644C4 /* AxleBearing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxleBearing.m; sourceTree = "<group>"; };
+		D4180FE81FFB9EB9008644C4 /* Outlets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Outlets.h; sourceTree = "<group>"; };
+		D4180FE91FFB9EB9008644C4 /* Outlets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Outlets.m; sourceTree = "<group>"; };
+		D42C50BB1FFBA86F0062032F /* Glass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Glass.h; sourceTree = "<group>"; };
+		D42C50BC1FFBA86F0062032F /* Glass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Glass.m; sourceTree = "<group>"; };
+		D42C50C11FFBA9E30062032F /* Wiper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wiper.h; sourceTree = "<group>"; };
+		D42C50C21FFBA9E30062032F /* Wiper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wiper.m; sourceTree = "<group>"; };
+		D4825F2B1FFC8AAA000C8320 /* FireExtinguisher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FireExtinguisher.h; sourceTree = "<group>"; };
+		D4825F2C1FFC8AAA000C8320 /* FireExtinguisher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FireExtinguisher.m; sourceTree = "<group>"; };
+		D4825F2E1FFC8B85000C8320 /* FuelTank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FuelTank.h; sourceTree = "<group>"; };
+		D4825F2F1FFC8B85000C8320 /* FuelTank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FuelTank.m; sourceTree = "<group>"; };
+		D4825F311FFC8D92000C8320 /* FirstAidBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstAidBox.h; sourceTree = "<group>"; };
+		D4825F321FFC8D92000C8320 /* FirstAidBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstAidBox.m; sourceTree = "<group>"; };
+		D49C3CA71FFB799E000F1FAB /* FootRest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FootRest.h; sourceTree = "<group>"; };
+		D49C3CA81FFB799E000F1FAB /* FootRest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FootRest.m; sourceTree = "<group>"; };
+		D49C3CAA1FFB79B2000F1FAB /* HandRest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandRest.h; sourceTree = "<group>"; };
+		D49C3CAB1FFB79B2000F1FAB /* HandRest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandRest.m; sourceTree = "<group>"; };
+		D49C3CAD1FFB79C9000F1FAB /* PushBack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushBack.h; sourceTree = "<group>"; };
+		D49C3CAE1FFB79C9000F1FAB /* PushBack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushBack.m; sourceTree = "<group>"; };
+		D4AE6E761FFB6425001ECE8A /* Engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Engine.h; sourceTree = "<group>"; };
+		D4AE6E771FFB6425001ECE8A /* Engine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Engine.m; sourceTree = "<group>"; };
+		D4AE6E791FFB6505001ECE8A /* ACBus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACBus.h; sourceTree = "<group>"; };
+		D4AE6E7A1FFB6505001ECE8A /* ACBus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACBus.m; sourceTree = "<group>"; };
+		D4B3DEF81FF7AC0900D2EF55 /* AC Bus */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "AC Bus"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4B3DEFB1FF7AC0900D2EF55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4B3DF081FF7AD6400D2EF55 /* Seats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Seats.h; sourceTree = "<group>"; };
+		D4B3DF091FF7AD6400D2EF55 /* Seats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Seats.m; sourceTree = "<group>"; };
+		D4B3DF0B1FF7ADA000D2EF55 /* Tyres.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tyres.h; sourceTree = "<group>"; };
+		D4B3DF0C1FF7ADA000D2EF55 /* Tyres.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tyres.m; sourceTree = "<group>"; };
+		D4B3DF111FF7ADDB00D2EF55 /* AC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AC.h; sourceTree = "<group>"; };
+		D4B3DF121FF7ADDB00D2EF55 /* AC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AC.m; sourceTree = "<group>"; };
+		D4B3DF171FF7AE3200D2EF55 /* Door.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Door.h; sourceTree = "<group>"; };
+		D4B3DF181FF7AE3200D2EF55 /* Door.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Door.m; sourceTree = "<group>"; };
+		D4B3DF1A1FF7AE5C00D2EF55 /* Television.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Television.h; sourceTree = "<group>"; };
+		D4B3DF1B1FF7AE5C00D2EF55 /* Television.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Television.m; sourceTree = "<group>"; };
+		D4B3DF1D1FF7AE8200D2EF55 /* Steering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Steering.h; sourceTree = "<group>"; };
+		D4B3DF1E1FF7AE8200D2EF55 /* Steering.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Steering.m; sourceTree = "<group>"; };
+		D4B3DF201FF7AE9A00D2EF55 /* Horn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Horn.h; sourceTree = "<group>"; };
+		D4B3DF211FF7AE9A00D2EF55 /* Horn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Horn.m; sourceTree = "<group>"; };
+		D4B3DF231FF7AF0000D2EF55 /* Blankets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Blankets.h; sourceTree = "<group>"; };
+		D4B3DF241FF7AF0000D2EF55 /* Blankets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Blankets.m; sourceTree = "<group>"; };
+		D4B3DF261FF7AF7600D2EF55 /* Lights.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lights.h; sourceTree = "<group>"; };
+		D4B3DF271FF7AF7600D2EF55 /* Lights.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lights.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4B3DEF51FF7AC0900D2EF55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4B3DEEF1FF7AC0900D2EF55 = {
+			isa = PBXGroup;
+			children = (
+				D4B3DEFA1FF7AC0900D2EF55 /* AC Bus */,
+				D4B3DEF91FF7AC0900D2EF55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4B3DEF91FF7AC0900D2EF55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4B3DEF81FF7AC0900D2EF55 /* AC Bus */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4B3DEFA1FF7AC0900D2EF55 /* AC Bus */ = {
+			isa = PBXGroup;
+			children = (
+				D4B3DEFB1FF7AC0900D2EF55 /* main.m */,
+				D4B3DF081FF7AD6400D2EF55 /* Seats.h */,
+				D4B3DF091FF7AD6400D2EF55 /* Seats.m */,
+				D4B3DF0B1FF7ADA000D2EF55 /* Tyres.h */,
+				D4B3DF0C1FF7ADA000D2EF55 /* Tyres.m */,
+				D4B3DF111FF7ADDB00D2EF55 /* AC.h */,
+				D4B3DF121FF7ADDB00D2EF55 /* AC.m */,
+				D4B3DF171FF7AE3200D2EF55 /* Door.h */,
+				D4B3DF181FF7AE3200D2EF55 /* Door.m */,
+				D4B3DF1A1FF7AE5C00D2EF55 /* Television.h */,
+				D4B3DF1B1FF7AE5C00D2EF55 /* Television.m */,
+				D4B3DF1D1FF7AE8200D2EF55 /* Steering.h */,
+				D4B3DF1E1FF7AE8200D2EF55 /* Steering.m */,
+				D4B3DF201FF7AE9A00D2EF55 /* Horn.h */,
+				D4B3DF211FF7AE9A00D2EF55 /* Horn.m */,
+				D4B3DF231FF7AF0000D2EF55 /* Blankets.h */,
+				D4B3DF241FF7AF0000D2EF55 /* Blankets.m */,
+				D4B3DF261FF7AF7600D2EF55 /* Lights.h */,
+				D4B3DF271FF7AF7600D2EF55 /* Lights.m */,
+				D4AE6E761FFB6425001ECE8A /* Engine.h */,
+				D4AE6E771FFB6425001ECE8A /* Engine.m */,
+				D4AE6E791FFB6505001ECE8A /* ACBus.h */,
+				D4AE6E7A1FFB6505001ECE8A /* ACBus.m */,
+				D49C3CA71FFB799E000F1FAB /* FootRest.h */,
+				D49C3CA81FFB799E000F1FAB /* FootRest.m */,
+				D49C3CAA1FFB79B2000F1FAB /* HandRest.h */,
+				D49C3CAB1FFB79B2000F1FAB /* HandRest.m */,
+				D49C3CAD1FFB79C9000F1FAB /* PushBack.h */,
+				D49C3CAE1FFB79C9000F1FAB /* PushBack.m */,
+				D4180FC41FFB7DB0008644C4 /* MagazinePouch.h */,
+				D4180FC51FFB7DB0008644C4 /* MagazinePouch.m */,
+				D4180FC71FFB8362008644C4 /* WaterBottle.h */,
+				D4180FC81FFB8362008644C4 /* WaterBottle.m */,
+				D4180FCD1FFB86C6008644C4 /* Mirrors.h */,
+				D4180FCE1FFB86C6008644C4 /* Mirrors.m */,
+				D4180FD01FFB87EE008644C4 /* Tube.h */,
+				D4180FD11FFB87EE008644C4 /* Tube.m */,
+				D4180FD31FFB892F008644C4 /* Brake.h */,
+				D4180FD41FFB892F008644C4 /* Brake.m */,
+				D4180FD61FFB8D7F008644C4 /* Gears.h */,
+				D4180FD71FFB8D7F008644C4 /* Gears.m */,
+				D4180FD91FFB95E3008644C4 /* FrontLight.h */,
+				D4180FDA1FFB95E3008644C4 /* FrontLight.m */,
+				D4180FDC1FFB96E8008644C4 /* BackLights.h */,
+				D4180FDD1FFB96E8008644C4 /* BackLights.m */,
+				D4180FDF1FFB9710008644C4 /* LEDLights.h */,
+				D4180FE01FFB9710008644C4 /* LEDLights.m */,
+				D4180FE51FFB9BF4008644C4 /* AxleBearing.h */,
+				D4180FE61FFB9BF4008644C4 /* AxleBearing.m */,
+				D4180FE81FFB9EB9008644C4 /* Outlets.h */,
+				D4180FE91FFB9EB9008644C4 /* Outlets.m */,
+				D42C50BB1FFBA86F0062032F /* Glass.h */,
+				D42C50BC1FFBA86F0062032F /* Glass.m */,
+				D42C50C11FFBA9E30062032F /* Wiper.h */,
+				D42C50C21FFBA9E30062032F /* Wiper.m */,
+				D4825F2B1FFC8AAA000C8320 /* FireExtinguisher.h */,
+				D4825F2C1FFC8AAA000C8320 /* FireExtinguisher.m */,
+				D4825F2E1FFC8B85000C8320 /* FuelTank.h */,
+				D4825F2F1FFC8B85000C8320 /* FuelTank.m */,
+				D4825F311FFC8D92000C8320 /* FirstAidBox.h */,
+				D4825F321FFC8D92000C8320 /* FirstAidBox.m */,
+			);
+			path = "AC Bus";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4B3DEF71FF7AC0900D2EF55 /* AC Bus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4B3DEFF1FF7AC0900D2EF55 /* Build configuration list for PBXNativeTarget "AC Bus" */;
+			buildPhases = (
+				D4B3DEF41FF7AC0900D2EF55 /* Sources */,
+				D4B3DEF51FF7AC0900D2EF55 /* Frameworks */,
+				D4B3DEF61FF7AC0900D2EF55 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AC Bus";
+			productName = "AC Bus";
+			productReference = D4B3DEF81FF7AC0900D2EF55 /* AC Bus */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4B3DEF01FF7AC0900D2EF55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Alivelu Ravula";
+				TargetAttributes = {
+					D4B3DEF71FF7AC0900D2EF55 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D4B3DEF31FF7AC0900D2EF55 /* Build configuration list for PBXProject "AC Bus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D4B3DEEF1FF7AC0900D2EF55;
+			productRefGroup = D4B3DEF91FF7AC0900D2EF55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4B3DEF71FF7AC0900D2EF55 /* AC Bus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4B3DEF41FF7AC0900D2EF55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B3DF221FF7AE9A00D2EF55 /* Horn.m in Sources */,
+				D49C3CAF1FFB79C9000F1FAB /* PushBack.m in Sources */,
+				D4180FC91FFB8362008644C4 /* WaterBottle.m in Sources */,
+				D4180FCF1FFB86C6008644C4 /* Mirrors.m in Sources */,
+				D4B3DF131FF7ADDB00D2EF55 /* AC.m in Sources */,
+				D42C50C31FFBA9E30062032F /* Wiper.m in Sources */,
+				D4180FD21FFB87EE008644C4 /* Tube.m in Sources */,
+				D4180FE11FFB9710008644C4 /* LEDLights.m in Sources */,
+				D4180FD51FFB892F008644C4 /* Brake.m in Sources */,
+				D4B3DF1F1FF7AE8200D2EF55 /* Steering.m in Sources */,
+				D4825F2D1FFC8AAA000C8320 /* FireExtinguisher.m in Sources */,
+				D42C50BD1FFBA86F0062032F /* Glass.m in Sources */,
+				D4B3DF281FF7AF7600D2EF55 /* Lights.m in Sources */,
+				D4B3DF0D1FF7ADA000D2EF55 /* Tyres.m in Sources */,
+				D4180FD81FFB8D7F008644C4 /* Gears.m in Sources */,
+				D4825F301FFC8B85000C8320 /* FuelTank.m in Sources */,
+				D4B3DF251FF7AF0000D2EF55 /* Blankets.m in Sources */,
+				D4180FC61FFB7DB0008644C4 /* MagazinePouch.m in Sources */,
+				D4180FDE1FFB96E8008644C4 /* BackLights.m in Sources */,
+				D4AE6E7B1FFB6505001ECE8A /* ACBus.m in Sources */,
+				D4180FEA1FFB9EB9008644C4 /* Outlets.m in Sources */,
+				D4825F331FFC8D92000C8320 /* FirstAidBox.m in Sources */,
+				D4180FE71FFB9BF4008644C4 /* AxleBearing.m in Sources */,
+				D4AE6E781FFB6425001ECE8A /* Engine.m in Sources */,
+				D4B3DF0A1FF7AD6400D2EF55 /* Seats.m in Sources */,
+				D4B3DF1C1FF7AE5C00D2EF55 /* Television.m in Sources */,
+				D4B3DF191FF7AE3200D2EF55 /* Door.m in Sources */,
+				D4180FDB1FFB95E3008644C4 /* FrontLight.m in Sources */,
+				D49C3CA91FFB799E000F1FAB /* FootRest.m in Sources */,
+				D4B3DEFC1FF7AC0900D2EF55 /* main.m in Sources */,
+				D49C3CAC1FFB79B2000F1FAB /* HandRest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D4B3DEFD1FF7AC0900D2EF55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D4B3DEFE1FF7AC0900D2EF55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D4B3DF001FF7AC0900D2EF55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D4B3DF011FF7AC0900D2EF55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4B3DEF31FF7AC0900D2EF55 /* Build configuration list for PBXProject "AC Bus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4B3DEFD1FF7AC0900D2EF55 /* Debug */,
+				D4B3DEFE1FF7AC0900D2EF55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4B3DEFF1FF7AC0900D2EF55 /* Build configuration list for PBXNativeTarget "AC Bus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4B3DF001FF7AC0900D2EF55 /* Debug */,
+				D4B3DF011FF7AC0900D2EF55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4B3DEF01FF7AC0900D2EF55 /* Project object */;
+}
